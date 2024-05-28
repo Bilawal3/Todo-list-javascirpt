@@ -78,6 +78,10 @@ button{
         margin-top: 3%;
         overflow-y: scroll;
     }
+    #histroyDiv li h5{
+        width: 80%;
+        float: left;
+    }
 }
 @media screen and (max-width: 576px) {
     .todoApp{
@@ -86,5 +90,9 @@ button{
         border: 2px solid black;
         margin-top: 3%;
         overflow-y: scroll;
+    }
+    #histroyDiv li h5{
+        width: 75%;
+        float: left;
     }
 }
