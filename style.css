@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoApp{
+    width: 30%;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 3%;
+    overflow-y: scroll;
+}
+#todo{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+button{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#histroyDiv li{
+    width: 95%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+#histroyDiv li h5{
+    width: 90%;
+    float: left;
+}
